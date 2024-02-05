@@ -1,0 +1,2 @@
+# https://bugs.gentoo.org/914905
+LDFLAGS="-Wl,--undefined-version"

@@ -1,0 +1,3 @@
+# Latest kernel currently supported by OpenZFS is 6.6.* series
+>=sys-kernel/gentoo-kernel-6.7
+>=sys-kernel/gentoo-kernel-bin-6.7

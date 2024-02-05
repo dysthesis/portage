@@ -1,0 +1,5 @@
+# Env setup to disable LTO for problem builds
+CFLAGS="${CFLAGS} -D_LARGEFILE64_SOURCE"
+CXXFLAGS="${CXXFLAGS}"
+FCFLAGS="${FCFLAGS}"
+FFLAGS="${FFLAGS}"

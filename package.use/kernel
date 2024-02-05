@@ -1,0 +1,2 @@
+# Hades does not run under hardened kernel
+sys-kernel/gentoo-kernel -hardened

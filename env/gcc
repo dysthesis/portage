@@ -1,0 +1,12 @@
+CC="gcc"
+CXX="g++"
+
+AR="${CHOST}-ar"
+NM="${CHOST}-nm"
+RANLIB="${CHOST}-ranlib"
+OBJCOPY="objcopy"
+
+COMMON_FLAGS="-O2 -flto=14 -march=native -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-Wl,--as-needed"
